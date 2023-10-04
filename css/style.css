@@ -42,28 +42,34 @@ body {
 
 .resume {
   position: absolute;
-  margin-top: 50px;
-  width: 90%;
-  height: 90%;
+  width: 15%;
+  height: 5%;
 }
 
 .resume .download {
+  position: absolute;
   height: auto;
-  width: 2%;
+  width: 15%;
   text-align: right;
   float: right;
-  top: 10px;
+  top: -385px;
+  right: -600px;
   margin-top: 8.5px;
   margin-left: 15px;
-  filter: invert(1)
+  filter: invert(1);
+  vertical-align: middle;
 }
 
 .resume h2 {
+  position: absolute;
   font-family: 'Work Sans', sans-serif;
-  font-size: 40px;
-  color: rgb(255, 255, 255);
+  font-size: 30px;
+  color: #81FFD9;
   text-align: right;
   float: right;
+  vertical-align: middle;
+  top: -375px;
+  right: -720px;
 }
 /*
 .column {
