@@ -32,6 +32,10 @@ body {
   z-index: -2;
 }
 
+.logo {
+  z-index: 10;
+}
+
 .logo .logo-image {
   width: 10%;
   height: auto;
@@ -44,6 +48,7 @@ body {
   position: absolute;
   width: 15%;
   height: 5%;
+  z-index: 10;
 }
 
 .resume .download {
@@ -53,7 +58,7 @@ body {
   text-align: right;
   float: right;
   top: -385px;
-  right: -600px;
+  right: -725px;
   margin-top: 8.5px;
   margin-left: 15px;
   filter: invert(1);
@@ -63,14 +68,21 @@ body {
 .resume h2 {
   position: absolute;
   font-family: 'Work Sans', sans-serif;
-  font-size: 30px;
-  color: #81FFD9;
+  font-size: 20px;
+  color:#ffffff;
   text-align: right;
   float: right;
   vertical-align: middle;
   top: -375px;
-  right: -720px;
+  right: -675px;
+  line-height: 0.9em;
 }
+
+.resume h2 span {
+  font-size: 14px;
+  color: #81FFD9;
+}
+
 /*
 .column {
   float: left;
