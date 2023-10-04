@@ -32,6 +32,39 @@ body {
   z-index: -2;
 }
 
+.logo .logo-image {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top: 80px;
+  left: 100px;
+}
+
+.resume {
+  position: absolute;
+  margin-top: 50px;
+  width: 90%;
+  height: 90%;
+}
+
+.resume .download {
+  height: auto;
+  width: 2%;
+  text-align: right;
+  float: right;
+  top: 10px;
+  margin-top: 8.5px;
+  margin-left: 15px;
+  filter: invert(1)
+}
+
+.resume h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-align: right;
+  float: right;
+}
 /*
 .column {
   float: left;
@@ -116,7 +149,7 @@ body {
 }
 
 .attraction-seeker {
-  color: #76B947;
+  color: #81FFD9;
 }
 
 .tabcontent .attraction-seeker {
