@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +12,10 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
 
+    <script src="scripts/script.js"></script>
+
 </head>
+
 <body>
     <div class="mountains"></div>
 
@@ -26,9 +30,15 @@
             </li>
         </ul>
         -->
-        <span><h1>SUMIT SHARMA</h1></span>
-        <span><h2 class="heading-2">A PROFESSIONAL FULL STACK DEVELOPER & GRAPHIC DESIGNER</h2></span>
-        <span><h3>CRAFTING DIGITAL EXPERIENCES, ONE LINE OF CODE AT A TIME.</h3></span>
+        <span>
+            <h1>SUMIT SHARMA</h1>
+        </span>
+        <span>
+            <h2 class="heading-2">A PROFESSIONAL FULL STACK DEVELOPER & GRAPHIC DESIGNER</h2>
+        </span>
+        <span>
+            <h3>CRAFTING DIGITAL EXPERIENCES, ONE LINE OF CODE AT A TIME.</h3>
+        </span>
     </div>
     <div class="photo"></div>
     <div class="background-frame1"></div>
@@ -41,7 +51,55 @@
         <img src="images/cloud5.png" style="--i:5;">
     </div>
 
-    
+    <!-- Tab links -->
+    <div class="tab">
+        <button class="tablinks btn1" onclick="openTab(event, 'about-me')" id="defaultOpen">ABOUT ME</button>
+        <button class="tablinks btn2" onclick="openTab(event, 'interest')">INTEREST</button>
+        <button class="tablinks btn3" onclick="openTab(event, 'education')">EDUCATION</button>
+    </div>
+
+    <!-- Tab content -->
+    <div id="about-me" class="tabcontent">
+        <h3>London is the capital city of England.</h3>
+    </div>
+
+    <div id="interest" class="tabcontent">
+        <h3>London is the capital city of England.</h3>
+    </div>
+
+    <div id="education" class="tabcontent">
+        <h3>London is the capital city of England.</h3>
+    </div>
+
+    <!--
+    <div class="row">
+        <div class="column">
+            <span class="about-me-title">
+                ABOUT ME
+            </span>
+            <span class="about-me-content">
+                CONTENT
+            </span>
+        </div>
+        <div class="column">
+            <span class="interests-title">
+                INTERESTS
+            </span>
+            <span class="interests-content">
+
+            </span>
+        </div>
+        <div class="column">
+            <span class="education-title">
+                EDUCATION
+            </span>
+            <span class="education-content">
+
+            </span>
+        </div>
+    </div>
+    -->
+
     <div class="links">
         <ul class="wrapper">
             <li class="icon github">
@@ -57,13 +115,9 @@
                 <span><i class="fab fa-instagram"></i></span>
             </li>
             <li class="icon twitter">
-              <span class="tooltip">Twitter</span>
-              <span><i class="fab fa-twitter"></i></span>
+                <span class="tooltip">Twitter</span>
+                <span><i class="fab fa-twitter"></i></span>
             </li>
-            <li class="icon youtube" style="visibility: hidden;">
-              <span class="tooltip">Youtube</span>
-              <span><i class="fab fa-youtube"></i></span>
-            </li>
-          </ul>
+        </ul>
     </div>
 </body>
