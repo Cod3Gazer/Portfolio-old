@@ -34,7 +34,7 @@
             <h1>SUMIT SHARMA</h1>
         </span>
         <span>
-            <h2 class="heading-2">A PROFESSIONAL FULL STACK DEVELOPER & GRAPHIC DESIGNER</h2>
+            <h2 class="heading-2">A PROFESSIONAL <span class="attraction-seeker">FULL STACK DEVELOPER</span> & GRAPHIC DESIGNER</h2>
         </span>
         <span>
             <h3>CRAFTING DIGITAL EXPERIENCES, ONE LINE OF CODE AT A TIME.</h3>
@@ -53,22 +53,48 @@
 
     <!-- Tab links -->
     <div class="tab">
-        <button class="tablinks btn1" onclick="openTab(event, 'about-me')" id="defaultOpen">ABOUT ME</button>
-        <button class="tablinks btn2" onclick="openTab(event, 'interest')">INTEREST</button>
+        <button id="defaultOpen" class="tablinks btn1" onclick="openTab(event, 'about-me')">ABOUT ME</button>
+        <button class="tablinks btn2" onclick="openTab(event, 'interest')">TECHNOLOGY STACK</button>
         <button class="tablinks btn3" onclick="openTab(event, 'education')">EDUCATION</button>
     </div>
 
     <!-- Tab content -->
     <div id="about-me" class="tabcontent">
-        <h3>London is the capital city of England.</h3>
+        <h3>A reliable Software Engineer with over four years of practical experience and a strong work ethic.
+            Self-driven to consistently deliver top-notch results in-line with stringent targets and deadlines.</h3>
+        <h3>Objective: <br>I am a proactive student with a New Zealand student visa, actively seeking <span class="attraction-seeker">PART-TIME OR INTERNSHIP</span>
+            opportunities within the dynamic IT industry.</h3>
     </div>
 
     <div id="interest" class="tabcontent">
-        <h3>London is the capital city of England.</h3>
+        <h3>
+            <li>PROGRAMMING LANGUAGES:<br>&nbsp;&nbsp;<span>C#, C++ and JAVA</span></li>
+            <li>BACKEND TECHNOLOGIES:<br>&nbsp;&nbsp;<span>.NET, Web APIs, ASP.NET and ASP.NET MVC</span></li>
+            <li>FRONTEND TECHNOLOGIES:<br>&nbsp;&nbsp;<span>Vue.js Angular, JavaScript, HTML and CSS</span></li>
+            <li>DATABASES:<br>&nbsp;&nbsp;<span>SQL Server and PostgreSQL</span></li>
+            <li>TOOLS:<br>&nbsp;&nbsp;<span>GIT, JIRA, Bitbucket, Jenkins, vSphere, TFS and TestRail</span></li>
+        </h3>
     </div>
 
     <div id="education" class="tabcontent">
-        <h3>London is the capital city of England.</h3>
+        <h3>
+            <li>
+                POST GRADUATE DIPLOMA ( Information Technology )<br>&nbsp;&nbsp;WINTEC ( Hamilton City Campus, Waikato,
+                New Zealand )
+            </li>
+            <span>
+                &nbsp;July 2023 to June 2024
+            </span>
+        </h3>
+        <h3>
+            <li>
+                BACHELORS OF ENGG. ( Information Technology )<br>&nbsp;&nbsp;Vidyalankar Institute of Technology (
+                Mumbai, India )
+            </li>
+            <span>
+                &nbsp;Aug 2014 to May 2018<br>&nbsp;&nbsp;&nbsp;7.16 CGPA
+            </span>
+        </h3>
     </div>
 
     <!--
@@ -102,22 +128,35 @@
 
     <div class="links">
         <ul class="wrapper">
-            <li class="icon github">
-                <span class="tooltip">Github</span>
-                <span><i class="fab fa-github"></i></span>
-            </li>
-            <li class="icon linkedin">
-                <span class="tooltip">LinkedIn</span>
-                <span><i class="fab fa-linkedin"></i></span>
-            </li>
-            <li class="icon instagram">
-                <span class="tooltip">Instagram</span>
-                <span><i class="fab fa-instagram"></i></span>
-            </li>
-            <li class="icon twitter">
-                <span class="tooltip">Twitter</span>
-                <span><i class="fab fa-twitter"></i></span>
-            </li>
+            <a href="https://github.com/Cod3Gazer/">
+                <li class="icon github">
+                    <span class="tooltip">Github</span>
+                    <span><i class="fab fa-github"></i></span>
+                </li>
+            </a>    
+            <a href="https://www.linkedin.com/in/thesumitsharma/">
+                <li class="icon linkedin">
+                    <span class="tooltip">LinkedIn</span>
+                    <span><i class="fab fa-linkedin"></i></span>
+                </li>
+            </a>  
+            <a href="https://www.instagram.com/str1krr/">
+                <li class="icon instagram">
+                    <span class="tooltip">Instagram</span>
+                    <span><i class="fab fa-instagram"></i></span>
+                </li>
+            </a>
+            <a href="https://twitter.com/Cod3Gazer">
+                <li class="icon twitter">
+                    <span class="tooltip">Twitter</span>
+                    <span><i class="fab fa-twitter"></i></span>
+                </li>
+            </a>
         </ul>
     </div>
+
+    <script>
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
 </body>

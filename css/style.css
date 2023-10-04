@@ -28,7 +28,7 @@ body {
   background-color: black;
   width: 100%;
   height: 100%;
-  opacity: 70%;
+  opacity: 0.7;
   z-index: -2;
 }
 
@@ -69,7 +69,7 @@ body {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 5px 89.9px;
+  padding: 5px 73.484px;
   transition: 0.3s;
   font-family: 'Work Sans', sans-serif;
   font-weight: bolder;
@@ -110,11 +110,46 @@ body {
   border-radius: 0px 0px 15px 15px;
 }
 
+.tabcontent .interest-list {
+  float: left;
+  width: 50%;
+}
+
+.attraction-seeker {
+  color: #76B947;
+}
+
+.tabcontent .attraction-seeker {
+  opacity: 1; 
+  margin: 0px; 
+}
+
 .tabcontent h3 {
-  padding: 10px;
+  margin: 20px;
   font-family: 'Work Sans', sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   color: rgb(255, 255, 255);
+  word-spacing: 7px;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.2em;
+}
+
+.tabcontent h3 span {
+  margin: 30px;
+  opacity: 0.5;
+}
+
+.tabcontent h4 {
+  margin: 30px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  word-spacing: 7px;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.2em;
+  opacity: 0.5;
 }
 
 .background-frame2 {
@@ -122,7 +157,7 @@ body {
   background-color: black;
   width: 94%;
   height: 90%;
-  opacity: 25%;
+  opacity: 0.25;
   z-index: -1;
   margin-right: 3%;
   margin-left: 3%;
@@ -152,7 +187,7 @@ body {
   margin-inline: auto;
   margin-block: 15rem;
   line-height: 1;
-  top: -120px;
+  top: -140px;
   z-index: 2;
 }
 
@@ -225,7 +260,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-size: 1.843em;
   color: rgb(194, 192, 192);
-  opacity: 50%;
+  opacity: 0.5;
   margin-top: 15px;
   margin-right: 535px;
   text-align: right;
@@ -243,7 +278,7 @@ body {
 }
 
 .clouds img {
-  opacity: 15%;
+  opacity: 0.15;
   position: absolute;
   bottom: 0;
   max-width: 100%;
@@ -283,6 +318,10 @@ body {
   position: absolute;
 }
 
+.wrapper .a {
+  filter: invert(1);
+}
+
 .wrapper .icon {
   position: relative;
   border: 20px solid transparent;
@@ -297,6 +336,7 @@ body {
   align-items: center;
   flex-direction: column;
   box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+  color: #313131;
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
