@@ -555,7 +555,7 @@ body {
     margin-inline: auto;
     margin-block: 15rem;
     line-height: 1;
-    top: -22%;
+    top: -18%;
     z-index: 2;
   }
 
@@ -590,7 +590,7 @@ body {
     border: 1px solid #ccc;
     background-color: #818181;
     width: 69.94%;
-    margin-top: -77%;
+    margin-top: -52%;
     margin-left: 10px;
     border-radius: 7px 7px 0px 0px;
     z-index: 15;
@@ -627,8 +627,8 @@ body {
     border: 1px solid #ccc;
     border-top: none;
     width: 63.4%;
-    top: 33%;
-    height: 60%;
+    top: 39%;
+    height: 54%;
     z-index: 4;
     border-radius: 0px 0px 7px 7px;
   }
@@ -689,7 +689,7 @@ body {
     align-items: center;
     flex-direction: column;
     box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
-    top: 400%;
+    top: 420%;
     left: -130%;
     color: #313131;
     cursor: pointer;
