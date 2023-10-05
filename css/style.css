@@ -57,8 +57,8 @@ body {
   width: 15%;
   text-align: right;
   float: right;
-  top: -385px;
-  right: -725px;
+  top: -800%;
+  right: -253%;
   margin-top: 8.5px;
   margin-left: 15px;
   filter: invert(1);
@@ -69,12 +69,12 @@ body {
   position: absolute;
   font-family: 'Work Sans', sans-serif;
   font-size: 20px;
-  color:#ffffff;
+  color: #ffffff;
   text-align: right;
   float: right;
   vertical-align: middle;
-  top: -375px;
-  right: -675px;
+  top: -780%;
+  right: -235%;
   line-height: 0.9em;
 }
 
@@ -130,11 +130,11 @@ body {
 
 .tab .btn1 {
   border-radius: 15px 0px 0px 0px;
-} 
+}
 
 .tab .btn3 {
   border-radius: 0px 15px 0px 0px;
-} 
+}
 
 /* Change background color of buttons on hover */
 .tab button:hover {
@@ -171,8 +171,8 @@ body {
 }
 
 .tabcontent .attraction-seeker {
-  opacity: 1; 
-  margin: 0px; 
+  opacity: 1;
+  margin: 0px;
 }
 
 .tabcontent h3 {
@@ -467,3 +467,233 @@ body {
 }
 
 /*About me button*/
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .logo {
+    z-index: 10;
+  }
+  
+  .logo .logo-image {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 3%;
+    left: 8%;
+  }
+
+  .resume {
+    position: absolute;
+    width: 15%;
+    height: 5%;
+    z-index: 10;
+  }
+  
+  .resume .download {
+    position: absolute;
+    height: auto;
+    width: 40%;
+    text-align: right;
+    float: right;
+    top: -915%;
+    right: -245%;
+    margin-top: 8.5px;
+    margin-left: 15px;
+    filter: invert(1);
+    vertical-align: middle;
+  }
+  
+  .resume h2 {
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+    text-align: right;
+    float: right;
+    vertical-align: middle;
+    top: -890%;
+    right: -195%;
+    line-height: 0.9em;
+  }
+  
+  .resume h2 span {
+    font-size: 7px;
+    color: #81FFD9;
+  }
+
+  .clouds img {
+    opacity: 0.15;
+    position: absolute;
+    bottom: 0;
+    max-width: 400%;
+    animation: animate calc(50s * var(--i)) linear infinite;
+  }
+
+  .background-frame2 {
+    position: absolute;
+    background-color: black;
+    width: 94%;
+    height: 98%;
+    opacity: 0.25;
+    z-index: -1;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .detail {
+    position: absolute;
+    width: 80%;
+    height: 20%;
+    text-align: center;
+    margin-inline: auto;
+    margin-block: 15rem;
+    line-height: 1;
+    top: -22%;
+    z-index: 2;
+  }
+
+  .detail h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+  }
+
+  .heading-2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    color: rgb(204, 204, 204);
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .detail h3 {
+    margin-top: 5px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    color: rgb(194, 192, 192);
+    opacity: 0.5;
+    margin-top: 5px;
+    margin-right: -10px;
+    text-align: center;
+  }
+
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #818181;
+    width: 69.94%;
+    margin-top: -77%;
+    margin-left: 10px;
+    border-radius: 7px 7px 0px 0px;
+    z-index: 15;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 2px 3.75%;
+    transition: 0.3s;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 10.99px;
+    z-index: 15;
+  }
+  
+  .tab .btn1 {
+    border-radius: 7px 0px 0px 0px;
+  }
+  
+  .tab .btn3 {
+    border-radius: 0px 7px 0px 0px;
+  }
+
+  /* Style the tab content */
+  .tabcontent {
+    position: absolute;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    width: 63.4%;
+    top: 33%;
+    height: 60%;
+    z-index: 4;
+    border-radius: 0px 0px 7px 7px;
+  }
+  
+  .tabcontent .interest-list {
+    float: left;
+    width: 50%;
+  }
+  
+  .tabcontent h3 {
+    margin: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    word-spacing: 3px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.2em;
+  }
+  
+  .tabcontent h3 span {
+    margin: 10px;
+    opacity: 0.5;
+  }
+  
+  .tabcontent h4 {
+    margin: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    word-spacing: 3px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.2em;
+    opacity: 0.5;
+  }
+
+  .attraction-seeker {
+    color: #81FFD9;
+  }
+  
+  .tabcontent .attraction-seeker {
+    opacity: 1;
+    margin: 0px;
+  }  
+
+  .wrapper .icon {
+    position: relative;
+    border: 20px solid transparent;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+    width: 0px;
+    height: 0px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+    top: 400%;
+    left: -130%;
+    color: #313131;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+}
